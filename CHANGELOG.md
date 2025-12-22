@@ -3,7 +3,7 @@
 ## [0.1.0] - 2025-12-21
 
 ### Added
-- Initial release extracted from SAM project
+- Initial release extracted from Frame project
 - **Execution Tracing**: CallGraph tracking for debugging and performance analysis
 - `ExecutionTrace` struct for managing pipeline traces
 - `StepType` enum for common pipeline stages
@@ -23,6 +23,6 @@
 - `serde_json` (JSON export)
 
 ### Notes
-- Extracted from [SAM (Societal Advisory Module)](https://github.com/Blackfall-Labs/sam)
+- Extracted from [Frame](https://github.com/Blackfall-Labs/sam)
 - Platform-independent, minimal dependencies
 - Production-ready with minimal overhead

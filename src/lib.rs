@@ -1,6 +1,6 @@
-//! # SAM Utils - Shared Utilities for SAM Ecosystem
+//! # Frame Trace - Execution Monitoring Subsystem
 //!
-//! This crate provides shared utilities used across the SAM (Societal Advisory Module) ecosystem.
+//! This crate provides execution tracing and monitoring for Frame microservices.
 //!
 //! ## Features
 //!
@@ -9,7 +9,7 @@
 //! ## Usage
 //!
 //! ```rust
-//! use sam_utils::trace::{ExecutionTrace, TraceStep, StepType};
+//! use frame_trace::trace::{ExecutionTrace, TraceStep, StepType};
 //!
 //! // Create a new trace with an ID
 //! let mut trace = ExecutionTrace::new("trace-001");

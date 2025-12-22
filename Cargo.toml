@@ -1,15 +1,15 @@
 [package]
-name = "sam-utils"
+name = "frame-trace"
 version = "0.1.0"
 edition = "2021"
 authors = ["Magnus Trent <magnus@blackfall.dev>"]
 license = "MIT"
-repository = "https://github.com/Blackfall-Labs/sam-utils-rs"
-description = "Shared utilities for SAM ecosystem: execution tracing and debugging"
-keywords = ["sam", "debugging", "tracing", "utilities", "callgraph"]
+repository = "https://github.com/Blackfall-Labs/frame-trace"
+description = "Execution tracing and monitoring subsystem for Frame microservices"
+keywords = ["frame", "debugging", "tracing", "mainframe", "monitoring"]
 categories = ["development-tools::debugging"]
 readme = "README.md"
-documentation = "https://docs.rs/sam-utils"
+documentation = "https://docs.rs/frame-trace"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }

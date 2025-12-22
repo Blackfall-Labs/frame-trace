@@ -1,6 +1,6 @@
-# SAM Utils - Shared Utilities for SAM Ecosystem
+# Frame Trace - Shared Utilities for SAM Ecosystem
 
-**Shared debugging and utility functions for the SAM (Societal Advisory Module) ecosystem.**
+**Shared debugging and utility functions for the Frame ecosystem.**
 
 ## Features
 
@@ -19,7 +19,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-sam-utils = "0.1.0"
+frame-trace = "0.1.0"
 ```
 
 ## Quick Start
@@ -262,7 +262,7 @@ Minimal overhead suitable for production use.
 
 ## History
 
-Extracted from the [SAM (Societal Advisory Module)](https://github.com/Blackfall-Labs/sam) project, where it provides execution tracing for the AI assistant pipeline.
+Extracted from the [Frame](https://github.com/Blackfall-Labs/sam) project, where it provides execution tracing for the AI assistant pipeline.
 
 ## License
 
@@ -274,7 +274,7 @@ Magnus Trent <magnus@blackfall.dev>
 
 ## Links
 
-- **GitHub:** https://github.com/Blackfall-Labs/sam-utils-rs
-- **Docs:** https://docs.rs/sam-utils
-- **Crates.io:** https://crates.io/crates/sam-utils
+- **GitHub:** https://github.com/Blackfall-Labs/frame-trace-rs
+- **Docs:** https://docs.rs/frame-trace
+- **Crates.io:** https://crates.io/crates/frame-trace
 - **SAM Project:** https://github.com/Blackfall-Labs/sam
