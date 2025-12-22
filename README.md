@@ -22,6 +22,24 @@ Add to your `Cargo.toml`:
 frame-trace = "0.1.0"
 ```
 
+## Dependency Architecture
+
+**frame-trace is standalone** with no Frame dependencies:
+
+```
+frame-trace
+└── (no Frame dependencies)
+```
+
+**Used by:** All Frame subsystems for execution monitoring
+
+**Position in Frame ecosystem:**
+```
+frame-trace (standalone monitoring)
+    ↓
+[All Frame subsystems use this for tracing]
+```
+
 ## Quick Start
 
 ### Basic Execution Tracing
