@@ -27,6 +27,7 @@ frame-trace = "0.1.0"
 **frame-trace is standalone** with no Frame dependencies:
 
 ```
+
 frame-trace
 └── (no Frame dependencies)
 ```
@@ -34,7 +35,9 @@ frame-trace
 **Used by:** All Frame subsystems for execution monitoring
 
 **Position in Frame ecosystem:**
+
 ```
+
 frame-trace (standalone monitoring)
     ↓
 [All Frame subsystems use this for tracing]
@@ -200,8 +203,8 @@ Export execution traces for review:
       "name": "search_documents",
       "start_time_ms": 1703001234567,
       "duration_ms": 42,
-      "input": {"query": "How do I use async Rust?"},
-      "output": {"count": 3}
+      "input": { "query": "How do I use async Rust?" },
+      "output": { "count": 3 }
     },
     {
       "step_type": "LlmGeneration",
@@ -236,6 +239,7 @@ trace.start_step(StepType::ToolExecution, "service_b_work");
 Main trace container.
 
 **Methods:**
+
 - `new()` - Create new trace
 - `start_step(step_type, name)` - Start a new step
 - `start_step_with_data(step_type, name, input)` - Start with input data
@@ -250,6 +254,7 @@ Main trace container.
 Individual step in execution trace.
 
 **Fields:**
+
 - `step_type: StepType` - Type of step
 - `name: String` - Step description
 - `start_time_ms: u64` - Unix timestamp (ms)
@@ -295,4 +300,3 @@ Magnus Trent <magnus@blackfall.dev>
 - **GitHub:** https://github.com/Blackfall-Labs/frame-trace-rs
 - **Docs:** https://docs.rs/frame-trace
 - **Crates.io:** https://crates.io/crates/frame-trace
-- **SAM Project:** https://github.com/Blackfall-Labs/sam
